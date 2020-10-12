@@ -6,8 +6,16 @@
       "esModuleInterop": true,
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
-      "downlevelIteration": true
+      "downlevelIteration": true,
+      "outDir": "dist"
     },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.test.ts"
+    ],
     "$schema": "https://json.schemastore.org/tsconfig",
     "display": "Recommended"
   }
